@@ -1,0 +1,178 @@
+[
+ {
+  "model": "qwen3.8-max",
+  "lab": "Qwen",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 2.0,
+  "note": ""
+ },
+ {
+  "model": "qwen3.7-plus",
+  "lab": "Qwen",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 2.79,
+  "note": ""
+ },
+ {
+  "model": "qwen3.6-plus",
+  "lab": "Qwen",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.67,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ },
+ {
+  "model": "qwen3.7-max",
+  "lab": "Qwen",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 1.92,
+  "note": ""
+ },
+ {
+  "model": "qwen3.8-max-preview",
+  "lab": "Qwen",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 1.9,
+  "note": " | answered as qwen3.8-max"
+ },
+ {
+  "model": "qwen3.6-flash",
+  "lab": "Qwen",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 1.75,
+  "note": ""
+ },
+ {
+  "model": "deepseek-v4-pro",
+  "lab": "DeepSeek",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 3.1,
+  "note": ""
+ },
+ {
+  "model": "deepseek-v4-flash-0731",
+  "lab": "DeepSeek",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 2.78,
+  "note": ""
+ },
+ {
+  "model": "deepseek-v3.2",
+  "lab": "DeepSeek",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.66,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ },
+ {
+  "model": "kimi-k2.7-code",
+  "lab": "Moonshot",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.66,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ },
+ {
+  "model": "kimi-k2.6",
+  "lab": "Moonshot",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.65,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ },
+ {
+  "model": "kimi-k2.5",
+  "lab": "Moonshot",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.66,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ },
+ {
+  "model": "glm-5.2",
+  "lab": "Zhipu",
+  "plain_ok": true,
+  "plain_text": "PONG",
+  "tool_ok": true,
+  "tool_called": true,
+  "tool_name": "read_probe_file",
+  "seconds": 2.21,
+  "note": ""
+ },
+ {
+  "model": "glm-5.1",
+  "lab": "Zhipu",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.66,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ },
+ {
+  "model": "glm-5",
+  "lab": "Zhipu",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.7,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ },
+ {
+  "model": "MiniMax-M2.5",
+  "lab": "MiniMax",
+  "plain_ok": false,
+  "plain_text": "",
+  "tool_ok": false,
+  "tool_called": false,
+  "tool_name": null,
+  "seconds": 0.66,
+  "note": "no answer: HTTP 403 {\"error\":{\"message\":\"Access to model denied. Please"
+ }
+]
