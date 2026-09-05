@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "fault-labs"
+type: software
+authors:
+  - family-names: Semenkevich
+    given-names: Dmitriy
+    orcid: "https://orcid.org/0009-0009-3013-4978"
+version: "1.0.0"
+date-released: "2026-09-05"
+license: MIT
+repository-code: "https://github.com/dimhold/fault-labs"
+abstract: "560 tool calls on 7 models from 3 labs (Qwen, DeepSeek, Zhipu) measure whether a reply reports a broken tool or silently passes the corrupted value on. Silent corruption is flagged in 0 replies out of 140, while an announced EACCES failure is disclosed in 87.1%. Declaring the token format in prose inside the tool description lifts catches to 7 out of 70. Asking for a rigid answer format cuts disclosure of loud failures from 91.4% to 37.1%. The judge is deterministic and the call journal is published in full. This is a replication on a minimal task: the niche is covered by the prior work listed in PRIOR-WORK.md."
+keywords:
+  - "tool use"
+  - "agent reliability"
+  - "silent failure"
+  - "fault injection"
+  - "LLM evaluation"
+  - "model honesty"
+  - "MCP"
