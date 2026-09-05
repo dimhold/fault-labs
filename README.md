@@ -1,5 +1,7 @@
 # fault-labs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22417812.svg)](https://doi.org/10.5281/zenodo.22417812)
+
 When a model's tool breaks, does the reply report the breakage or silently pass
 the corrupted value on?
 
